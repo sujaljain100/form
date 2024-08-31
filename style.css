@@ -1,0 +1,110 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+/*     
+    background-image: url(wallpapersden.com_black-4k-windows-11-original_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: sans-serif; 
+    margin-left: 300px;
+}
+.box{
+margin-top: 60px;
+    width: 70%;
+    margin-left: 4%;
+    background-color: #17153B;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url(stock-vector--d-background-with-realistic-blue-cylinder-pedestal-podium-speed-neon-lighting-wave-curve-lines-2260302335.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.box h1{
+    color: white;
+    font-size: 45px;
+    margin-top: 40px;
+}
+button{
+    width: 100px;
+    height: 38px;
+    background-color: #134B70;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#in{
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#up{
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button:hover{
+    width: 100px;
+    height: 38px;
+    background-color: white;
+    color: black;
+  
+    border: none;
+    transition: 0.3s ease;
+}
+input{
+    height: 40px;
+    width: 40%;
+}
+input[type="button"]{
+   background-color: blue;
+   border-radius: 5px;
+   color: white;
+   border: none;
+}
+::placeholder{
+  padding-left: 10px;
+  
+}
+hr{
+    width: 40%;
+    margin-left: 30%;
+}
+span{
+    color:gray;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    padding: 0 10px;
+    background-color: aliceblue;
+    margin-left: 44%;
+}
+svg{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+svg:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+/* #psw{
+    background-image: url(https://img.icons8.com/?size=100&id=60022&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 21px;
+    padding-right: 40px;
+} */
+i{
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+i:hover{
+    color: purple;
+}
